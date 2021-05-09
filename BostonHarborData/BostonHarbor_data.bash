@@ -3,7 +3,7 @@
 # Conch: https://github.com/ekrell/conch
 
 CONCH_PATH=/projects/conch/
-REGION_RASTER=data/full_shrink.tif
+REGION_RASTER=data/full_shrink_2.tif
 NPOINTS=100000
 
 # Determine raster size (pixels)
@@ -57,8 +57,6 @@ for i in $(seq 0 $(($NVALID-1))); do
     if [ ! -f data/path_$i"".txt ]; then
         rm data/res_$i"".txt
     fi
-
-
 
 done
 
