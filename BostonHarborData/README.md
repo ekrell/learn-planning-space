@@ -18,7 +18,7 @@ Solving the paths require installing the `conch` path planning repository: https
 
 ### 2. Create list of valid path files
 
-    bash BostonHarbor_ls.bash
+    bash BostonHarbor_ls.bash > BostonHarbor_paths.txt
 
 ### 3. Convert the paths, occupancy grid to training samples
 
@@ -26,5 +26,5 @@ Solving the paths require installing the `conch` path planning repository: https
 
 ### 4. Move to root
 
-    cp BostonHarbor_samples.npz ..
+    cp BostonHarbor_Data.npz ..
 
