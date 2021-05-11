@@ -8,7 +8,7 @@ import numpy as np
 # Options
 dataDir = "data/"
 pathFilesFile = "BostonHarbor_paths.txt"
-rasterFile = "data/full_shrink.asc"
+rasterFile = "data/full_shrink_2.asc"
 sampleOutFile = "BostonHarbor_Data.npz"
 
 # Load paths
